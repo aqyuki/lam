@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":prHourlyLimitNone",
+    ":automergePatch"
+  ],
+  "timezone": "Asia/Tokyo",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "dependencyDashboard": true
+}
